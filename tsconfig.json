@@ -6,10 +6,10 @@
     "jsx": "preserve",
     "importHelpers": true,
     "moduleResolution": "node",
-    "experimentalDecorators": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "sourceMap": true,
+    "noImplicitAny": true,
     "baseUrl": ".",
     "types": [
       "webpack-env",
@@ -19,7 +19,10 @@
     "paths": {
       "@/*": [
         "src/*"
-      ]
+      ],
+      "@gbro/*": [
+        "src/workspaces/gbro/*"
+      ],
     },
     "lib": [
       "esnext",
