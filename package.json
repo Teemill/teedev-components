@@ -1,0 +1,29 @@
+{
+  "name": "@teedev/components",
+  "version": "1.0.0",
+  "description": "Teedev component library",
+  "author": "dan.e@teemill.com",
+  "keywords": [
+    "teedev",
+    "components",
+    "vue"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c --environment BUILD:production"
+  },
+  "main": "src/index.ts",
+  "devDependencies": {
+    "rollup": "^1.17.0",
+    "rollup-plugin-commonjs": "^10.0.1",
+    "rollup-plugin-typescript": "^1.0.1",
+    "rollup-plugin-vue": "^5.0.1",
+    "tslib": "^1.10.0",
+    "typescript": "^3.5.3",
+    "vue": "^2.6.10",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "dependencies": {
+    "vue-property-decorator": "^8.2.1"
+  }
+}
